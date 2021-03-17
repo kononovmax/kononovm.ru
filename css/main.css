@@ -13,7 +13,7 @@
 @font-face {
 	font-family: 'Averta';
 	src: url(../fonts/Averta_SemiBold.otf) format("opentype");
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 }
 
@@ -124,7 +124,6 @@ a {
 
 .poster__border {
 
-	display: block;
 	width: 1140px;
 	height: 632px;
 	margin: 0 auto 64px auto;
@@ -132,12 +131,6 @@ a {
 	padding: 16px;
 	border-radius: 40px;
 	transition: .4s;
-
-}
-
-.poster__border:hover {
-
-	background: rgba(0,0,0, .06);
 
 }
 
@@ -156,7 +149,7 @@ a {
 	position: relative;
 	height: 64px;
 	height: 64px;
-	margin-bottom: 200px;
+	margin-bottom: 96px;
 
 }
 
@@ -166,18 +159,52 @@ a {
 	line-height: 96px;
 	font-size: 64px;
 	color: #fff;
-	font-weight: 500;
+	font-weight: 600;
 	margin-bottom: 16px;
 
 }
 
-.paster__description {
+.poster__description {
 
 	position: relative;
 	line-height: 96px;
 	font-size: 64px;
 	color: #fff;
 	font-weight: 400;
+	margin-bottom: 40px;
+
+}
+
+.poster__btn {
+
+	position: relative;
+	display: block;
+	height: 64px;
+	width: 247px;
+	background: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 100%;
+	border-radius: 8px;
+	padding: 20px 52px 20px 24px;
+
+}
+
+.poster__btn:before {
+
+	content: "";
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 20px;
+	right: 24px;
+	transition: .3s;
+
+}
+
+.poster__btn:hover:before {
+
+	right: 16px;
 
 }
 
@@ -203,7 +230,7 @@ a {
 	position: absolute;
 	right: 0;
 	top: 0;
-	width: 788px;
+	width: 709px;
 	height: 600px;
 	background-image: url('../img/istock_poster.jpg');
 	background-size: contain;
@@ -225,6 +252,19 @@ a {
 
 }
 
+.istock__btn {
+
+	color: #4D7CFE;
+
+}
+
+.istock__btn:before {
+
+	background-image: url('../img/istock_arrow.svg');
+	background-size: contain;
+
+}
+
 
 /* Jarvis */
 
@@ -241,7 +281,7 @@ a {
 	position: absolute;
 	right: 0;
 	top: 0;
-	width: 808px;
+	width: 737px;
 	height: 600px;
 	background-image: url('../img/jarvis_poster.jpg');
 	background-size: contain;
@@ -260,6 +300,20 @@ a {
 
 	background: #333;
 	width: 574px;
+
+}
+
+.jarvis__btn {
+
+	color: #333;
+
+}
+
+
+.jarvis__btn:before {
+
+	background-image: url('../img/jarvis_arrow.svg');
+	background-size: contain;
 
 }
 
@@ -298,6 +352,19 @@ a {
 
 	background: #467FC2;
 	width: 727px;
+
+}
+
+.vk__btn {
+
+	color: #467FC2;
+
+}
+
+.vk__btn:before {
+
+	background-image: url('../img/vk_arrow.svg');
+	background-size: contain;
 
 }
 

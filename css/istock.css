@@ -13,7 +13,7 @@
 @font-face {
 	font-family: 'Averta';
 	src: url(../fonts/Averta_SemiBold.otf) format("opentype");
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 }
 
@@ -151,7 +151,7 @@ a {
 
 .title__title-bold {
 
-	font-weight: 500;
+	font-weight: 600;
 
 }
 
